@@ -1,0 +1,28 @@
+
+IO_LOC  "debug_led[0]" 10;
+IO_LOC  "debug_led[1]" 11;
+IO_LOC  "debug_led[2]" 13;
+IO_LOC  "debug_led[3]" 14;
+IO_LOC  "debug_led[4]" 15;
+IO_LOC  "debug_led[5]" 16;
+
+IO_LOC  "btn1_reset" 3;
+//IO_PORT "btn1_reset" IO_TYPE=LVCMOS18;
+IO_LOC  "btn2" 4;
+//IO_PORT "btn2" IO_TYPE=LVCMOS18;
+
+IO_LOC  "clk" 52;
+IO_PORT "clk" IO_TYPE=LVCMOS33 PULL_MODE=UP;
+
+IO_LOC  "i2c_scl" 25;
+IO_LOC  "i2c_sda" 26;
+
+IO_LOC  "i2s_bck" 28;
+IO_LOC  "i2s_ws" 29; 
+IO_LOC  "i2s_d0" 30; 
+IO_LOC  "nerror_in" 31;
+
+IO_LOC  "nenable_out" 37;
+IO_LOC  "nmute_out" 36;
+IO_LOC  "rx_in" 39; 
+IO_LOC  "rx_out" 38;

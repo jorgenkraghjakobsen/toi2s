@@ -1,0 +1,14 @@
+// Register database generic build system
+sys_cfg.mute 0x00 0 1 0 Mute output
+sys_cfg.mute_l 0x00 1 1 0 Mute Left
+sys_cfg.mute_r 0x00 2 1 0 Mute Right
+sys_cfg.debug_led 0x03 0 8 85 Debug led signals
+bootamp_cfg.bootmem0 0x10 0 8 64 Bootmem send to amp on startup
+bootamp_cfg.bootmem1 0x11 0 8 24 Bootmem send to amp on startup
+bootamp_cfg.bootmem2 0x12 0 8 83 Bootmem send to amp on startup
+bootamp_cfg.bootmem3 0x13 0 8 8 Bootmem send to amp on startup
+bootamp_cfg.bootmem4 0x14 0 8 255 Bootmem send to amp on startup
+bootamp_cfg.bootmem5 0x15 0 8 255 Bootmem send to amp on startup
+bootamp_cfg.bootmem6 0x16 0 8 255 Bootmem send to amp on startup
+bootamp_cfg.bootmem7 0x17 0 8 255 Bootmem send to amp on startup
+debug.dummy_bit 0x20 0 1 0 Dummy bit

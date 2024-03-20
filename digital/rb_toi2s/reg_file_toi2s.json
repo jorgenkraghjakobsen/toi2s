@@ -1,0 +1,122 @@
+// Register database generic build system
+{
+  "registers": [
+    {
+      "symbol"      : "sys_cfg.mute",
+      "address"     : "0x00",
+      "pos"         : "0",
+      "size"        : "1",
+      "reset"       : "0",
+      "readonly"    : "0",
+      "description" : "Mute output"
+    },
+    {
+      "symbol"      : "sys_cfg.mute_l",
+      "address"     : "0x00",
+      "pos"         : "1",
+      "size"        : "1",
+      "reset"       : "0",
+      "readonly"    : "0",
+      "description" : "Mute Left"
+    },
+    {
+      "symbol"      : "sys_cfg.mute_r",
+      "address"     : "0x00",
+      "pos"         : "2",
+      "size"        : "1",
+      "reset"       : "0",
+      "readonly"    : "0",
+      "description" : "Mute Right"
+    },
+    {
+      "symbol"      : "sys_cfg.debug_led",
+      "address"     : "0x03",
+      "pos"         : "0",
+      "size"        : "8",
+      "reset"       : "85",
+      "readonly"    : "0",
+      "description" : "Debug led signals"
+    },
+    {
+      "symbol"      : "bootamp_cfg.bootmem0",
+      "address"     : "0x10",
+      "pos"         : "0",
+      "size"        : "8",
+      "reset"       : "64",
+      "readonly"    : "0",
+      "description" : "Bootmem send to amp on startup"
+    },
+    {
+      "symbol"      : "bootamp_cfg.bootmem1",
+      "address"     : "0x11",
+      "pos"         : "0",
+      "size"        : "8",
+      "reset"       : "24",
+      "readonly"    : "0",
+      "description" : "Bootmem send to amp on startup"
+    },
+    {
+      "symbol"      : "bootamp_cfg.bootmem2",
+      "address"     : "0x12",
+      "pos"         : "0",
+      "size"        : "8",
+      "reset"       : "83",
+      "readonly"    : "0",
+      "description" : "Bootmem send to amp on startup"
+    },
+    {
+      "symbol"      : "bootamp_cfg.bootmem3",
+      "address"     : "0x13",
+      "pos"         : "0",
+      "size"        : "8",
+      "reset"       : "8",
+      "readonly"    : "0",
+      "description" : "Bootmem send to amp on startup"
+    },
+    {
+      "symbol"      : "bootamp_cfg.bootmem4",
+      "address"     : "0x14",
+      "pos"         : "0",
+      "size"        : "8",
+      "reset"       : "255",
+      "readonly"    : "0",
+      "description" : "Bootmem send to amp on startup"
+    },
+    {
+      "symbol"      : "bootamp_cfg.bootmem5",
+      "address"     : "0x15",
+      "pos"         : "0",
+      "size"        : "8",
+      "reset"       : "255",
+      "readonly"    : "0",
+      "description" : "Bootmem send to amp on startup"
+    },
+    {
+      "symbol"      : "bootamp_cfg.bootmem6",
+      "address"     : "0x16",
+      "pos"         : "0",
+      "size"        : "8",
+      "reset"       : "255",
+      "readonly"    : "0",
+      "description" : "Bootmem send to amp on startup"
+    },
+    {
+      "symbol"      : "bootamp_cfg.bootmem7",
+      "address"     : "0x17",
+      "pos"         : "0",
+      "size"        : "8",
+      "reset"       : "255",
+      "readonly"    : "0",
+      "description" : "Bootmem send to amp on startup"
+    },
+    {
+      "symbol"      : "debug.dummy_bit",
+      "address"     : "0x20",
+      "pos"         : "0",
+      "size"        : "1",
+      "reset"       : "0",
+      "readonly"    : "0",
+      "description" : "Dummy bit"
+    }
+  ]
+}
